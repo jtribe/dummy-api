@@ -1224,7 +1224,7 @@
   "users": [
     {
       "id": 1,
-      "author": {
+      "name": {
         "first": "Alfreda",
         "last": "Michael"
       },
@@ -1234,7 +1234,7 @@
     },
     {
       "id": 2,
-      "author": {
+      "name": {
         "first": "Emily",
         "last": "Thompson"
       },
@@ -1244,7 +1244,7 @@
     },
     {
       "id": 3,
-      "author": {
+      "name": {
         "first": "Thelma",
         "last": "Benson"
       },
@@ -1254,7 +1254,7 @@
     },
     {
       "id": 4,
-      "author": {
+      "name": {
         "first": "Joyce",
         "last": "Snider"
       },
@@ -1264,7 +1264,7 @@
     },
     {
       "id": 5,
-      "author": {
+      "name": {
         "first": "Cristina",
         "last": "Charles"
       },
@@ -1274,7 +1274,7 @@
     },
     {
       "id": 6,
-      "author": {
+      "name": {
         "first": "Sharp",
         "last": "Dickerson"
       },
@@ -1284,7 +1284,7 @@
     },
     {
       "id": 7,
-      "author": {
+      "name": {
         "first": "Cora",
         "last": "Hale"
       },
@@ -1294,7 +1294,7 @@
     },
     {
       "id": 8,
-      "author": {
+      "name": {
         "first": "Johanna",
         "last": "Austin"
       },
@@ -1304,7 +1304,7 @@
     },
     {
       "id": 9,
-      "author": {
+      "name": {
         "first": "Preston",
         "last": "Pratt"
       },
@@ -1314,7 +1314,7 @@
     },
     {
       "id": 10,
-      "author": {
+      "name": {
         "first": "Olive",
         "last": "Zimmerman"
       },

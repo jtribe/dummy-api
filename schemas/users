@@ -4,7 +4,7 @@
   {
     'repeat(10)': {
       id: '{{index(1)}}',
-	  author: {
+	  name: {
         first: '{{firstName()}}',
         last: '{{surname()}}'
       },
