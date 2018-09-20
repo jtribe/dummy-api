@@ -1,6 +1,12 @@
 # Dummy JSON API server
 
-Deployed to https://dummy-api.jtribe.com.au (using aliased now instance).
+Deployed to https://dummy-api.jtribe.com.au and has the following endpoints
+
+```
+/posts
+/comments
+/users
+```
 
 ### Deployment
 run the following in the project root
