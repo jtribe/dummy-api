@@ -1,0 +1,14 @@
+// for use on http://next.json-generator.com
+
+[
+  {
+    'repeat(100)': {
+      id: '{{index(1)}}',
+	  authorId: '{{integer(0,10)}}',
+	  postId: '{{integer(1, 100)}}',
+      body: function (tags) {
+        return `${tags.lorem(tags.integer(1,5), "sentence")}`;
+      }
+    }
+  }
+]

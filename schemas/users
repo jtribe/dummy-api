@@ -1,0 +1,18 @@
+// for use on http://next.json-generator.com
+
+[
+  {
+    'repeat(10)': {
+      id: '{{index(1)}}',
+	  author: {
+        first: '{{firstName()}}',
+        last: '{{surname()}}'
+      },
+      email: function (tags) {
+        return `${this.author.first}.${this.author.last}@${tags.company()}${tags.domainZone()}`.toLowerCase();
+      },
+      title: '{{lorem(3, "words")}}',
+      body: '{{lorem(4, "paragraphs")}}'
+    }
+  }
+]

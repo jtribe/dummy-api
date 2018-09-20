@@ -1,0 +1,34 @@
+// for use on http://next.json-generator.com
+
+[
+  {
+    'repeat(100)': {
+      id: '{{index(1)}}',
+      authorId: '{{integer(1, 10)}}',
+      createdDate: '{{date(new Date(2017,0,1), new Date())}}',
+      picture: 'http://placehold.it/400x300',
+      tags: function () {
+        const rnd = max => Math.floor(Math.random()*max);
+        let tagCount = rnd(8);
+        const tagList = [
+          'british shorthair',
+          'manx',
+          'russian blue',
+          'scottish fold',
+          'abyssinian',
+          'tabby',
+          'bengal',
+          'persian'
+        ];
+        const tag = () => tagList[rnd(tagList.length-1)];
+        return [...Array(tagCount)]
+          .reduce(accum => {
+            let t = tag();
+            return accum.indexOf(t) !== -1 ? accum : accum.concat(t);
+          }, []);
+      },
+      title: '{{lorem(1, "sentence")}}',
+      body: '{{lorem(4, "paragraphs")}}'
+    }
+  }
+]
